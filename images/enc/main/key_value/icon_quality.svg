@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 50 50">
+  <!-- Generator: Adobe Illustrator 29.8.3, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #ffffff;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+			.st0:hover {
+        stroke: #1d1d1b;
+      }
+    </style>
+  </defs>
+  <polygon class="st0" points="20.96 19.96 25.96 35.98 30.96 19.96 20.96 19.96"/>
+  <polygon class="st0" points="12.18 19.96 25.96 35.98 20.96 19.96 12.18 19.96"/>
+  <polygon class="st0" points="30.96 19.96 25.96 35.98 39.74 19.96 30.96 19.96"/>
+  <polygon class="st0" points="35.56 12.85 30.96 19.96 39.74 19.96 35.56 12.85"/>
+  <polygon class="st0" points="12.18 19.96 20.96 19.96 16.36 12.85 12.18 19.96"/>
+  <polygon class="st0" points="16.36 12.85 20.96 19.96 25.96 12.85 16.36 12.85"/>
+  <polygon class="st0" points="25.96 12.85 30.96 19.96 35.56 12.85 25.96 12.85"/>
+  <polygon class="st0" points="20.96 19.96 30.96 19.96 25.96 12.85 20.96 19.96"/>
+</svg>
