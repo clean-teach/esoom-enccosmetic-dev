@@ -28,14 +28,13 @@
   </head>
   <body>
     <!-- start header -->
-    <header>
-      <!-- start navigation -->
+    <header class="header-with-topbar">
       <nav
-        class="navbar navbar-expand-lg navbar-dark bg-transparent header-light fixed-top header-reverse-scroll navbar-boxed"
+        class="navbar navbar-expand-lg top-space navbar-light bg-white header-light fixed-top navbar-boxed header-reverse-scroll"
       >
         <div class="container-fluid nav-header-container">
           <div class="col-6 col-lg-2 me-auto ps-lg-0">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="/">
               <img
                 src="/images/enc/common/logo/enc/logo_01_color.svg"
                 data-at2x="/images/enc/common/logo/enc/logo_01_color.svg"
@@ -70,7 +69,7 @@
                   <a href="/company" class="nav-link">Company</a>
                 </li>
                 <li class="nav-item dropdown simple-dropdown">
-                  <a href="#" class="nav-link">Business</a>
+                  <a href="/business/" class="nav-link">Business</a>
                   <i
                     class="fa fa-angle-down dropdown-toggle"
                     data-bs-toggle="dropdown"
@@ -78,18 +77,22 @@
                   ></i>
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown">
-                      <a href="blog-grid.html">비즈니스</a>
+                      <a href="/business/">비즈니스</a>
                     </li>
                     <li class="dropdown">
-                      <a href="blog-masonry.html">특허 및 인증</a>
+                      <a href="/business/certification/">특허 및 인증</a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item dropdown simple-dropdown">
-                  <a href="#" class="nav-link">R&D Center</a>
+                  <a href="/rd-center/" class="nav-link">R&D Center</a>
                 </li>
                 <li class="nav-item dropdown simple-dropdown">
-                  <a href="#" class="nav-link">PR Center</a>
+                  <a
+                    href="http://enccosmetic.co.kr/pr-center/video/"
+                    class="nav-link"
+                    >PR Center</a
+                  >
                   <i
                     class="fa fa-angle-down dropdown-toggle"
                     data-bs-toggle="dropdown"
@@ -97,10 +100,14 @@
                   ></i>
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown">
-                      <a href="blog-grid.html">영상자료</a>
+                      <a href="http://enccosmetic.co.kr/pr-center/video/"
+                        >영상자료</a
+                      >
                     </li>
                     <li class="dropdown">
-                      <a href="blog-masonry.html">E-Catalog</a>
+                      <a href="http://enccosmetic.co.kr/pr-center/e-catalog/"
+                        >E-Catalog</a
+                      >
                     </li>
                   </ul>
                 </li>
@@ -112,7 +119,11 @@
                   >
                 </li>
                 <li class="nav-item dropdown simple-dropdown">
-                  <a href="#" class="nav-link">Consulting</a>
+                  <a
+                    href="http://enccosmetic.co.kr/consulting/notice/"
+                    class="nav-link"
+                    >Consulting</a
+                  >
                   <i
                     class="fa fa-angle-down dropdown-toggle"
                     data-bs-toggle="dropdown"
@@ -120,10 +131,14 @@
                   ></i>
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown">
-                      <a href="blog-grid.html">공지사항</a>
+                      <a href="http://enccosmetic.co.kr/consulting/notice/"
+                        >공지사항</a
+                      >
                     </li>
                     <li class="dropdown">
-                      <a href="blog-masonry.html">Contact Us</a>
+                      <a href="http://enccosmetic.co.kr/consulting/contact-us/"
+                        >Contact Us</a
+                      >
                     </li>
                   </ul>
                 </li>
@@ -140,7 +155,7 @@
                   <a href="javascript:void(0);" title="England"
                     ><span class="icon-country"
                       ><img
-                        src="images/country-flag-16X16/South Korea.png"
+                        src="/images/country-flag-16X16/South Korea.png"
                         alt="" /></span
                     >Korean</a
                   >
@@ -149,7 +164,7 @@
                   <a href="javascript:void(0);" title="English"
                     ><span class="icon-country"
                       ><img
-                        src="images/country-flag-16X16/usa.png"
+                        src="/images/country-flag-16X16/usa.png"
                         alt="" /></span
                     >English</a
                   >
@@ -159,7 +174,7 @@
                   <a href="javascript:void(0);" title="France"
                     ><span class="icon-country"
                       ><img
-                        src="images/country-flag-16X16/Japan.png"
+                        src="/images/country-flag-16X16/Japan.png"
                         alt="" /></span
                     >Japanese</a
                   >
@@ -169,7 +184,6 @@
           </div>
         </div>
       </nav>
-      <!-- end navigation -->
     </header>
     <!-- end header -->
 
