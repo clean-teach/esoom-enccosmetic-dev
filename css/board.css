@@ -160,6 +160,33 @@
   font-size: 0.875rem;
   color: #111111;
 }
+.board_view .attach_area {
+  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 1.875rem;
+  font-size: 0.875rem;
+  color: #111111;
+}
+.board_view .attach_area ul,
+.board_view .attach_area li {
+  list-style: none;
+}
+.board_view .attach_area li {
+  padding: 0.625rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.board_view .attach_area button {
+  height: 1.75rem;
+  border-radius: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 0 1rem;
+  border: 1px solid #efefef;
+}
 .board_view .button_area {
   display: flex;
   justify-content: center;
