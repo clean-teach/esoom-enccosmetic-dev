@@ -1,0 +1,102 @@
+.board_section .board_section_title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.board_section select {
+  border: none;
+  margin: 0;
+  background-color: #f9f9f9;
+  height: 2.5rem;
+  border-radius: 1.125rem;
+  font-weight: 300;
+  font-size: 0.875rem;
+  width: fit-content;
+  padding-right: 2rem;
+}
+.board_section .filter_area {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.625rem;
+}
+.board_section .filter_area .search_area {
+  display: flex;
+  justify-content: stretch;
+  gap: 0.625rem;
+}
+.board_section .filter_area .search_box {
+  position: relative;
+  height: 2.5rem;
+}
+.board_section .filter_area .search_box input {
+  border: none;
+  background-color: #f9f9f9;
+  height: 100%;
+  border-radius: 1.125rem;
+}
+.board_section .filter_area .search_box button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff8847;
+}
+
+.board_table {
+  width: 100%;
+  border-top: 2px solid #232323;
+}
+.board_table caption {
+  display: none;
+}
+.board_table th,
+.board_table td {
+  padding: 1rem;
+  text-align: center;
+}
+.board_table th {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 1rem;
+  color: #232323;
+}
+.board_table td {
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 0.875rem;
+  color: #111111;
+}
+.board_table td.col_02 {
+  text-align: left;
+  font-weight: bold;
+}
+.board_table td a {
+  color: #111111;
+}
+.board_table td a:hover {
+  text-decoration: underline;
+}
+
+.pagination-style-01 .page-item .page-link:hover,
+.pagination-style-01 .page-item.active .page-link {
+  background-color: #ff8847;
+  color: #ffffff;
+}
+.pagination-style-01 .page-item.nav_btn .page-link {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  min-width: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.pagination-style-01 .page-item.nav_btn .page-link:hover {
+  background-color: #ff8847;
+  color: #ffffff;
+}
