@@ -13,6 +13,8 @@
   width: fit-content;
   padding-right: 2rem;
 }
+
+/* 게시판 필터 영역 */
 .board_section .filter_area {
   display: flex;
   justify-content: space-between;
@@ -47,6 +49,7 @@
   color: #ff8847;
 }
 
+/* 게시판 목록 */
 .board_table {
   width: 100%;
   border-top: 2px solid #232323;
@@ -80,6 +83,11 @@
 .board_table td a:hover {
   text-decoration: underline;
 }
+.board_table tr.new td.col_02::after {
+  content: 'N';
+  color: #ff8847;
+  padding-left: 0.25rem;
+}
 
 .pagination-style-01 .page-item .page-link:hover,
 .pagination-style-01 .page-item.active .page-link {
@@ -97,6 +105,78 @@
   height: 2.5rem;
 }
 .pagination-style-01 .page-item.nav_btn .page-link:hover {
+  background-color: #ff8847;
+  color: #ffffff;
+}
+
+/* 게시판 상세보기 페이지 */
+.board_view .top_area {
+  border-top: 2px solid #232323;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 1rem;
+  color: #232323;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.board_view .top_area .title {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+.board_view.new .top_area .title::after {
+  content: 'N';
+  color: #ff8847;
+  font-size: 0.875rem;
+  padding-left: 0.5rem;
+}
+
+.board_view .top_area .info_area {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 0.875rem;
+}
+.board_view .top_area .info_area dl {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.board_view .top_area .info_area dt {
+  line-height: normal;
+  font-weight: 700;
+}
+.board_view .top_area .info_area dd {
+  line-height: normal;
+  margin-bottom: 0;
+}
+.board_view .content_area {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 2.5rem 1.875rem;
+  font-size: 0.875rem;
+  color: #111111;
+}
+.board_view .button_area {
+  display: flex;
+  justify-content: center;
+  gap: 0.625rem;
+  padding: 1.25rem 0;
+}
+.board_view .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+  padding: 0 1.5rem;
+}
+.board_view .btn.btn_primary {
   background-color: #ff8847;
   color: #ffffff;
 }
