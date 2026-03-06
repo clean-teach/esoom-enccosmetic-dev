@@ -153,7 +153,7 @@ a:focus {
   text-decoration: none;
   outline: none;
   outline-offset: 0;
-  color: #0038e3;
+  color: #ff8847;
 }
 a,
 a.nav-link,
@@ -570,7 +570,7 @@ a.text-very-light-gray-hover:hover {
 .text-fast-blue,
 .btn-link.text-fast-blue,
 a.text-fast-blue-hover:hover {
-  color: #0038e3;
+  color: #ff8847;
 }
 .text-neon-blue,
 .btn-link.text-neon-blue,
@@ -1547,7 +1547,7 @@ a.text-gradient-fuego-turquoise-hover:hover {
   background-color: #98272a;
 }
 .bg-fast-blue {
-  background-color: #0038e3;
+  background-color: #ff8847;
 }
 .bg-neon-blue {
   background-color: #3452ff;
@@ -3628,14 +3628,14 @@ input.btn:focus {
   color: #dbdbdb;
 }
 .btn.btn-fast-blue {
-  background: #0038e3;
-  border-color: #0038e3;
+  background: #ff8847;
+  border-color: #ff8847;
   color: #ffffff;
 }
 .btn.btn-fast-blue:hover,
 .btn.btn-fast-blue:focus {
   background: transparent;
-  color: #0038e3;
+  color: #ff8847;
 }
 .btn.btn-green {
   background: #27ae60;
@@ -3856,13 +3856,13 @@ input.btn:focus {
 }
 .btn.btn-transparent-fast-blue {
   background: transparent;
-  border-color: #0038e3;
-  color: #0038e3;
+  border-color: #ff8847;
+  color: #ff8847;
 }
 .btn.btn-transparent-fast-blue:hover,
 .btn.btn-transparent-fast-blue:focus {
-  background: #0038e3;
-  border-color: #0038e3;
+  background: #ff8847;
+  border-color: #ff8847;
   color: #fff;
 }
 .btn.btn-transparent-green {
@@ -4245,7 +4245,7 @@ input.btn:focus {
   border-color: #ff85a6 !important;
 }
 .border-color-fast-blue {
-  border-color: #0038e3 !important;
+  border-color: #ff8847 !important;
 }
 .border-color-light-peach {
   border-color: #ffd7c4 !important;
@@ -8981,7 +8981,7 @@ a.likes-count:hover {
   display: inline-block;
 }
 .social-icon-style-01 a:hover {
-  color: #0038e3;
+  color: #ff8847;
 }
 
 /* social icon style 02 */
@@ -9619,7 +9619,7 @@ a.likes-count:hover {
 .social-icon-style-06 a:hover {
   color: #fff;
   border-radius: 100%;
-  background-color: #0038e3;
+  background-color: #ff8847;
 }
 
 /* social icon style 07 */
@@ -11079,7 +11079,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line {
   .navbar-nav
   > .nav-item.dropdown.simple-dropdown:hover
   > a {
-  color: rgba(0, 0, 0, 0.6) !important;
+  color: #ff8847 !important;
 }
 
 /* header logo */
@@ -14459,9 +14459,9 @@ header .header-cart-icon .cart-count {
   vertical-align: middle;
 }
 .blog-tag:hover {
-  border-color: #0038e3 !important;
+  border-color: #ff8847 !important;
   color: #fff;
-  background-color: #0038e3;
+  background-color: #ff8847;
 }
 .blog-tag:last-child {
   margin-right: 0;
@@ -14678,8 +14678,8 @@ a img.aligncenter {
   background-color: #ffffff;
 }
 .blog-comment li .btn-reply:hover {
-  border-color: #0038e3;
-  background: #0038e3;
+  border-color: #ff8847;
+  background: #ff8847;
   color: #fff;
 }
 .blog-comment li ul.child-comment {
@@ -17063,7 +17063,7 @@ a img.aligncenter {
   line-height: 16px;
 }
 .list-style-07 li a:hover {
-  color: #0038e3;
+  color: #ff8847;
 }
 .list-style-07.filter-category li,
 .list-style-07.filter-size li {
@@ -17339,7 +17339,7 @@ a img.aligncenter {
 }
 .newsletter-style-01 .btn.bg-fast-blue:hover,
 .newsletter-style-01 .btn.bg-fast-blue:focus {
-  background-color: #0038e3;
+  background-color: #ff8847;
 }
 .newsletter-style-01 .btn.text-slate-blue:hover,
 .newsletter-style-01 .btn.text-slate-blue:focus {
@@ -17363,7 +17363,7 @@ a img.aligncenter {
   -ms-transform: translateY(-50%);
 }
 .newsletter-style-02 .btn.text-fast-blue:hover {
-  color: #0038e3;
+  color: #ff8847;
 }
 .newsletter-style-02 input {
   padding-right: 145px;
@@ -17919,7 +17919,7 @@ aside .instafeed-grid.gutter-double-extra-large {
 .tab-style-02 .nav-tabs > li.nav-item > a.nav-link:focus,
 .tab-style-02 .nav-tabs > li.nav-item > a.nav-link:hover {
   border-bottom: none;
-  color: #0038e3;
+  color: #ff8847;
   background: none;
 }
 .tab-style-02 .nav-tabs.nav-tabs-light > li.nav-item > a.nav-link.active,
@@ -19880,7 +19880,7 @@ footer .instafeed-grid.gutter-double-extra-large {
 
 /* web agency */
 .web-agency .process-step-style-02 .process-step-item:hover .process-step-icon {
-  color: #0038e3;
+  color: #ff8847;
 }
 
 /* restaurant */
