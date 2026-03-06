@@ -186,7 +186,6 @@
 }
 .board_view .attach_area {
   border-bottom: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
   padding: 0 1.875rem;
   font-size: 0.875rem;
   color: #111111;
@@ -234,7 +233,7 @@
 
 @media (max-width: 1024px) {
   .board_section .board_section_title {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
   .board_section select {
     height: 2.5rem;
@@ -296,5 +295,53 @@
     flex-wrap: wrap;
     justify-content: start;
     column-gap: 0.625rem;
+  }
+
+  /* 게시판 상세보기 페이지 */
+  .board_view .top_area {
+    flex-direction: column;
+    padding: 1.75rem 0.625rem;
+  }
+  .board_view .top_area .title {
+    font-size: 18px;
+  }
+  .board_view.new .top_area .title::after {
+    font-size: 14px;
+  }
+  .board_view .top_area .info_area {
+    font-size: 14px;
+    gap: 0.625rem;
+  }
+  .board_view .top_area .info_area dl {
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+    gap: 0.625rem;
+  }
+  .board_view .top_area .info_area dl:nth-child(2)::before,
+  .board_view .top_area .info_area dl:nth-child(3)::before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 0.875rem;
+    background-color: #e5e5e5;
+  }
+  .board_view .top_area .info_area dt {
+    display: none;
+  }
+  .board_view .content_area {
+    padding: 1.75rem 0.625rem;
+    font-size: 14px;
+  }
+  .board_view .attach_area {
+    padding: 0 0.625rem;
+    font-size: 14px;
+  }
+
+  .board_view .btn {
+    font-size: 16px;
+    height: 40px;
+    border-radius: 40px;
   }
 }
