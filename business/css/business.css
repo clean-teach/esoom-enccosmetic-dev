@@ -45,3 +45,11 @@
   font-weight: 400;
   font-size: 1rem;
 }
+
+@media (max-width: 1600px) {
+  #factoryIntroductionSection .table_area {
+    position: relative;
+    transform: none;
+    padding: 2.825rem;
+  }
+}
