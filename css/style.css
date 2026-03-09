@@ -130,7 +130,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 30px;
   font-weight: 600;
   color: #828282;
@@ -475,6 +475,10 @@ h6 {
 .text-extra-large {
   font-size: 20px;
   line-height: 28px;
+}
+.text-24px {
+  font-size: 24px;
+  line-height: 32px;
 }
 .title-extra-small {
   font-size: 30px;
@@ -8649,6 +8653,9 @@ input.btn:focus {
 }
 
 /* screen height */
+.custom-small-screen {
+  height: 240px;
+}
 .extra-small-screen {
   height: 300px;
 }
@@ -11809,7 +11816,7 @@ header .header-cart-icon .cart-count {
 .simple-dropdown .dropdown-menu .dropdown a.active,
 .simple-dropdown .dropdown-menu .dropdown a:focus,
 .simple-dropdown .dropdown-menu .dropdown.active > a {
-  color: #232323;
+  color: #ff8847;
 }
 .simple-dropdown .dropdown-menu .dropdown a .dropdown-toggle {
   position: absolute;
@@ -12197,7 +12204,7 @@ header .header-cart-icon .cart-count {
   line-height: 32px;
 }
 .page-title-large h1 {
-  font-size: 42px;
+  font-size: 56px;
   line-height: 49px;
 }
 .page-title-extra-large h1 {

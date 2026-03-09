@@ -26,13 +26,25 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
 
     <style>
-      .feature-box:hover svg .st0 {
-      	stroke: #ff8847;
-      	transition: stroke 0.3s ease;
-      	-webkit-transition: stroke 0.3s ease;
-      	-moz-transition: stroke 0.3s ease;
-      	-o-transition
+         .feature-box:hover svg .st0 {
+         	stroke: #ff8847;
+         	transition: stroke 0.3s ease;
+         	-webkit-transition: stroke 0.3s ease;
+         	-moz-transition: stroke 0.3s ease;
+         	-o-transition
 
+         }
+
+      #mainSlideBannerSection .swiper-slide h2 {
+      	font-size: 100px;
+      	line-height: 95px;
+      }
+
+      @media screen and (max-width: 1024px) {
+      		#mainSlideBannerSection .swiper-slide h2 {
+      			font-size: 46px;
+      			line-height: 50px;
+      		}
       }
     </style>
   </head>
@@ -193,7 +205,7 @@
 
     <div class="main-content">
       <!-- start section -->
-      <section class="p-0">
+      <section id="mainSlideBannerSection" class="p-0">
         <div
           class="swiper white-move mobileoff-fullscreen-top-space md-h-600px sm-h-500px"
           data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-pagination", "clickable": true }, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "autoplay": { "delay": 4500, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'
@@ -213,15 +225,14 @@
                     class="col-xl-10 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative"
                   >
                     <p
-                      class="alt-font text-extra-medium text-white opacity-7 font-weight-300 margin-40px-bottom xs-margin-20px-bottom"
+                      class="alt-font text-large text-white opacity-7 font-weight-300 margin-40px-bottom xs-margin-20px-bottom"
                     >
                       Together with ENC, connecting the world through beauty.
                     </p>
                     <h2
                       class="alt-font text-shadow-double-large font-weight-600 text-white margin-55px-bottom md-no-text-shadow xs-margin-35px-bottom"
                     >
-                      World-class Value, <br />
-                      Global ODM Standard.
+                      World-class Value, Global ODM Standard.
                     </h2>
                   </div>
                 </div>
@@ -239,19 +250,18 @@
               <div class="container h-100">
                 <div class="row h-100">
                   <div
-                    class="col-xl-6 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative"
+                    class="col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative"
                   >
                     <p
-                      class="alt-font text-extra-medium text-white opacity-7 font-weight-300 margin-40px-bottom xs-margin-20px-bottom"
+                      class="alt-font text-large text-white opacity-7 font-weight-300 margin-40px-bottom xs-margin-20px-bottom"
                     >
                       ENC will be your Genie. 고객의 꿈을 실현하는 파트너가
                       되겠습니다.
                     </p>
                     <h2
-                      class="alt-font text-shadow-double-large font-weight-600 text-white margin-55px-bottom w-90 md-w-100 md-no-text-shadow xs-margin-35px-bottom"
+                      class="alt-font text-shadow-double-large font-weight-600 text-white margin-55px-bottom md-no-text-shadow xs-margin-35px-bottom"
                     >
-                      아름다움을 향한 <br />
-                      새로운 시작!
+                      아름다움을 향한 새로운 시작!
                     </h2>
                   </div>
                 </div>
@@ -269,16 +279,16 @@
               <div class="container h-100">
                 <div class="row h-100">
                   <div
-                    class="col-xl-6 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative"
+                    class="col-sm-8 h-100 d-flex justify-content-center flex-column position-relative"
                   >
                     <p
-                      class="alt-font text-extra-medium text-white opacity-7 font-weight-300 margin-40px-bottom xs-margin-20px-bottom"
+                      class="alt-font text-large text-white opacity-7 font-weight-300 margin-40px-bottom xs-margin-20px-bottom"
                     >
                       Upholding global standards through relentless research and
                       excellence.
                     </p>
                     <h2
-                      class="alt-font text-shadow-double-large font-weight-600 text-white margin-55px-bottom w-90 md-w-100 md-no-text-shadow xs-margin-35px-bottom"
+                      class="alt-font text-shadow-double-large font-weight-600 text-white margin-55px-bottom md-no-text-shadow xs-margin-35px-bottom"
                     >
                       Agility, Quality, and Beauty.
                     </h2>
@@ -305,9 +315,12 @@
               class="col-lg-5 pe-lg-0 md-margin-25px-bottom sm-margin-15px-bottom text-center text-lg-start wow animate__fadeIn"
               data-wow-delay="0.2s"
             >
-              <div>ENC will be your Genie</div>
+              <div class="fs-3 wow animate__fadeInRight">
+                ENC will be your Genie
+              </div>
               <h2
-                class="alt-font font-weight-600 title-large d-block letter-spacing-minus-5px sm-letter-spacing-minus-1-half"
+                class="alt-font font-weight-600 title-large d-block letter-spacing-minus-5px sm-letter-spacing-minus-1-half wow animate__fadeInRight"
+                data-wow-delay="0.2s"
                 style="color: #ff8847"
               >
                 About ENC<span class="text-extra-dark-gray">.</span>
@@ -354,7 +367,7 @@
                     >
                       <h3
                         href="blog-post-layout-01.html"
-                        class="alt-font font-weight-500 text-extra-medium text-extra-dark-gray text-extra-dark-gray-hover d-block margin-15px-bottom"
+                        class="alt-font font-weight-500 text-extra-large text-extra-dark-gray text-extra-dark-gray-hover d-block margin-15px-bottom"
                       >
                         OEM
                       </h3>
@@ -381,7 +394,7 @@
                     >
                       <h3
                         href="blog-post-layout-02.html"
-                        class="alt-font font-weight-500 text-extra-medium text-extra-dark-gray text-extra-dark-gray-hover d-block margin-20px-bottom"
+                        class="alt-font font-weight-500 text-extra-large text-extra-dark-gray text-extra-dark-gray-hover d-block margin-20px-bottom"
                       >
                         ODM
                       </h3>
@@ -423,7 +436,7 @@
                   class="feature-box-content last-paragraph-no-margin text-keep-all"
                 >
                   <span
-                    class="alt-font font-weight-500 margin-5px-bottom d-block text-extra-dark-gray"
+                    class="alt-font font-weight-500 margin-5px-bottom d-block text-extra-dark-gray text-extra-large"
                     >Sheet Mask</span
                   >
                   <p>
@@ -452,7 +465,7 @@
                   class="feature-box-content last-paragraph-no-margin text-keep-all"
                 >
                   <span
-                    class="alt-font font-weight-500 margin-5px-bottom d-block text-extra-dark-gray"
+                    class="alt-font font-weight-500 margin-5px-bottom d-block text-extra-dark-gray text-extra-large"
                     >Single Use</span
                   >
                   <p>
@@ -481,7 +494,7 @@
                   class="feature-box-content last-paragraph-no-margin text-keep-all"
                 >
                   <span
-                    class="alt-font font-weight-500 margin-5px-bottom d-block text-extra-dark-gray"
+                    class="alt-font font-weight-500 margin-5px-bottom d-block text-extra-dark-gray text-extra-large"
                     >Skin Care</span
                   >
                   <p>
@@ -510,7 +523,7 @@
                   class="feature-box-content last-paragraph-no-margin text-keep-all"
                 >
                   <span
-                    class="alt-font font-weight-500 margin-5px-bottom d-block text-extra-dark-gray"
+                    class="alt-font font-weight-500 margin-5px-bottom d-block text-extra-dark-gray text-extra-large"
                     >Hydrogel</span
                   >
                   <p>
@@ -521,8 +534,8 @@
               </div>
               <!-- end feature box item -->
             </div>
-            <div class="col-xl-5 col-lg-5 offset-lg-1 col-md-7">
-              <p>E&C is innovative</p>
+            <div class="col-xl-5 offset-lg-1 lg-margin-100px-top">
+              <p class="fs-3 wow animate__fadeInRight">E&C is innovative</p>
               <h2
                 class="alt-font font-weight-600 title-large d-block letter-spacing-minus-5px sm-letter-spacing-minus-1-half wow animate__fadeInRight"
                 style="color: #ff8847"
@@ -534,7 +547,11 @@
                 class="col-12 position-relative text-center md-margin-30px-bottom margin-7-rem-top wow animate__fadeIn"
                 data-wow-delay="0.2s"
               >
-                <img src="images/enc/main/busines/business.jpg" alt="" />
+                <img
+                  src="images/enc/main/busines/business.jpg"
+                  alt=""
+                  class="w-100 object-fit-cover"
+                />
               </div>
             </div>
           </div>
@@ -558,7 +575,7 @@
               class="col-lg-8 col-sm-9 position-relative text-center margin-4-half-rem-bottom"
             >
               <div
-                class="text-extra-medium text-white margin-20px-bottom opacity-6 alt-font"
+                class="text-white margin-20px-bottom opacity-6 alt-font fs-3"
               >
                 Our Vision &amp; Core Values
               </div>
@@ -570,7 +587,7 @@
             </div>
           </div>
           <div
-            class="text-extra-medium text-white margin-20px-bottom opacity-6 alt-font text-center"
+            class="text-extra-large text-white margin-20px-bottom opacity-6 alt-font text-center"
           >
             Core Values
           </div>
@@ -582,7 +599,7 @@
               class="col-sm-9 md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
             >
               <div
-                class="feature-box feature-box-left-icon feature-box-light-hover padding-3-rem-all lg-padding-1-rem-lr lg-padding-2-rem-tb md-padding-2-half-rem-all"
+                class="feature-box feature-box-left-icon feature-box-light-hover padding-3-rem-all lg-padding-1-rem-lr lg-padding-2-rem-tb md-padding-2-half-rem-all h-100"
               >
                 <div class="feature-box-icon">
                   <svg
@@ -625,7 +642,8 @@
                   class="feature-box-content text-white last-paragraph-no-margin"
                 >
                   <span
-                    class="d-block margin-5px-bottom alt-font font-weight-500"
+                    class="d-block margin-5px-bottom alt-font font-weight-500 text-extra-large"
+                    style="color: #ff8847"
                     >Agility</span
                   >
                   <p class="opacity-6">
@@ -702,7 +720,8 @@
                   class="feature-box-content text-white last-paragraph-no-margin"
                 >
                   <span
-                    class="d-block margin-5px-bottom alt-font font-weight-500"
+                    class="d-block margin-5px-bottom alt-font font-weight-500 text-extra-large"
+                    style="color: #ff8847"
                     >Quality</span
                   >
                   <p class="opacity-6">
@@ -765,7 +784,8 @@
                   class="feature-box-content text-white last-paragraph-no-margin"
                 >
                   <span
-                    class="d-block margin-5px-bottom alt-font font-weight-500"
+                    class="d-block margin-5px-bottom alt-font font-weight-500 text-extra-large"
+                    style="color: #ff8847"
                     >Beauty</span
                   >
                   <p class="opacity-6">
@@ -797,7 +817,9 @@
       >
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-3">
-            <div class="col d-flex flex-column justify-content-between">
+            <div
+              class="col col-lg-5 d-flex flex-column justify-content-between"
+            >
               <div class="text-center text-sm-start xs-margin-20px-bottom">
                 <a href="index.html" class="footer-logo"
                   ><img
@@ -808,11 +830,21 @@
                 /></a>
               </div>
               <div class="col-sm-8 text-left last-paragraph-no-margin">
+                <div class="text-medium">
+                  <a
+                    href="policy/privacy.html"
+                    title="페이지 이동"
+                    class="text-white"
+                    >개인정보 처리 방침</a
+                  >
+                </div>
                 <p>&copy; 2026 ENC. All Rights Reserved.</p>
               </div>
             </div>
             <!-- start footer column -->
-            <div class="col sm-margin-40px-bottom xs-margin-30px-bottom">
+            <div
+              class="col col-lg-3 sm-margin-40px-bottom xs-margin-30px-bottom"
+            >
               <span
                 class="alt-font font-weight-500 d-block text-white text-uppercase text-medium margin-15px-bottom xs-margin-10px-bottom letter-spacing-1px"
                 >Contact</span
