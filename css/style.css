@@ -18022,6 +18022,8 @@ aside .instafeed-grid.gutter-double-extra-large {
   border-radius: 25px;
   border: none !important;
   justify-content: center;
+  flex-direction: column;
+  line-height: 1.5;
 }
 .tab-style-05 .nav-tabs li i {
   font-size: 18px;

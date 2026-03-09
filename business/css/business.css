@@ -11,18 +11,18 @@
   color: #333333;
 }
 
-#factoryIntroductionSection .table_area .top_table {
+#factoryIntroductionSection .top_table {
   width: 100%;
   border: none;
 }
-#factoryIntroductionSection .table_area .top_table th {
+#factoryIntroductionSection .top_table th {
   font-weight: 500;
   font-size: 1.25rem;
 }
-#factoryIntroductionSection .table_area .top_table .first_line th:nth-child(1) {
+#factoryIntroductionSection .top_table .first_line th:nth-child(1) {
   width: 20%;
 }
-#factoryIntroductionSection .table_area .top_table td {
+#factoryIntroductionSection .top_table td {
   font-weight: 400;
   font-size: 1rem;
 }
