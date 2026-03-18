@@ -5,7 +5,6 @@
 }
 
 .main-content .half-section {
-  padding: 272px 0;
   background-repeat: no-repeat;
 }
 
@@ -61,9 +60,6 @@
 @media screen and (max-width: 1024px) {
   .main-content .page-title-large h1 {
     font-size: 34px;
-  }
-  .main-content .half-section {
-    padding: 120px 0;
   }
 
   .policy-section {
