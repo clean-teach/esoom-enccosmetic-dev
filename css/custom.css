@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .text-keep-all {
   word-break: keep-all;
 }
