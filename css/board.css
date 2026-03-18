@@ -86,7 +86,7 @@
   padding: 1rem;
 }
 .board_list .board_body {
-  font-size: 14px;
+  font-size: 16px;
   color: #111111;
 }
 .board_list .board_body .board_item {
@@ -96,6 +96,7 @@
   padding: 1rem;
   border-bottom: 1px solid #e5e5e5;
   text-align: center;
+  font-weight: 400;
 }
 .board_list .board_body .col_02 {
   text-align: left;
@@ -147,21 +148,21 @@
 .board_view .top_area .title {
   margin-bottom: 0;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 20px;
   display: flex;
   align-items: center;
 }
 .board_view.new .top_area .title::after {
   content: 'N';
   color: #ff8847;
-  font-size: 0.875rem;
+  font-size: 14px;
   padding-left: 0.5rem;
 }
 
 .board_view .top_area .info_area {
   display: flex;
   gap: 2.5rem;
-  font-size: 0.875rem;
+  font-size: 14px;
 }
 .board_view .top_area .info_area dl {
   margin-bottom: 0;
@@ -177,17 +178,19 @@
 .board_view .top_area .info_area dd {
   line-height: normal;
   margin-bottom: 0;
+  font-weight: 400;
 }
 .board_view .content_area {
   border-bottom: 1px solid #e5e5e5;
   padding: 2.5rem 1.875rem;
-  font-size: 0.875rem;
+  font-weight: 400;
+  font-size: 16px;
   color: #111111;
 }
 .board_view .attach_area {
   border-bottom: 1px solid #e5e5e5;
   padding: 0 1.875rem;
-  font-size: 0.875rem;
+  font-size: 14px;
   color: #111111;
 }
 .board_view .attach_area ul,
@@ -221,7 +224,7 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 16px;
   height: 2.5rem;
   border-radius: 2.5rem;
   padding: 0 1.5rem;
