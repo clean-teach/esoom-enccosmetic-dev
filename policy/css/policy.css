@@ -1,1 +1,79 @@
 @charset "UTF-8";
+
+.main-content .page-title-large h1 {
+  font-size: 42px;
+}
+
+.main-content .half-section {
+  padding: 272px 0;
+  background-repeat: no-repeat;
+}
+
+.policy-section {
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.25px;
+  font-weight: 300;
+  color: #111111;
+}
+
+.policy-section ol,
+.policy-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.policy-section h2,
+.policy-section h3 {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+.policy-section h3 {
+  font-weight: 300;
+}
+.policy-section dl {
+  margin: 0;
+}
+.policy-section dt,
+.policy-section dd {
+  font-weight: 300;
+  display: inline-block;
+  margin: 0;
+}
+
+.policy-section p {
+  margin: 0;
+}
+
+.policy-section > .container > ol > li {
+  margin-top: 20px;
+}
+.policy-section > .container > ol ol ol > li {
+  margin-top: 20px;
+}
+.policy-section > .container ol + p {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main-content .page-title-large h1 {
+    font-size: 34px;
+  }
+  .main-content .half-section {
+    padding: 120px 0;
+  }
+
+  .policy-section {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .policy-section h2,
+  .policy-section h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
