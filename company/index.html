@@ -1248,9 +1248,55 @@
       <!-- end section -->
 
       <!-- start section -->
-      <section id="locationSection" class="p-0 wow animate__fadeIn">
-        <div class="container-fluid">
+      <section
+        id="locationSection"
+        class="bg-light-gray wow animate__fadeIn pb-0 tab-style-05"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div
+              class="col-xl-5 col-sm-8 text-center margin-6-rem-bottom sm-margin-3-rem-bottom"
+            >
+              <h5
+                class="alt-font text-extra-dark-gray font-weight-500 d-inline-block fs-2"
+                style="color: #ff8847"
+              >
+                오시는 길
+              </h5>
+            </div>
+          </div>
           <div class="row">
+            <div class="col-12">
+              <!-- start tab navigation -->
+              <div class="tab-box">
+                <!-- start tab navigation -->
+                <ul
+                  class="nav nav-tabs margin-7-rem-bottom md-margin-5-rem-bottom xs-margin-15px-lr align-items-center justify-content-center font-weight-500 text-uppercase"
+                >
+                  <li class="nav-item alt-font">
+                    <a
+                      class="nav-link active"
+                      data-bs-toggle="tab"
+                      href="#headOffice"
+                      >본사 <br />
+                      <span style="font-size: 13px">(용인)</span></a
+                    >
+                  </li>
+                  <li class="nav-item alt-font">
+                    <a class="nav-link" data-bs-toggle="tab" href="#seoulOffice"
+                      >영업, 연구소 <br />
+                      <span style="font-size: 13px">(서울)</span></a
+                    >
+                  </li>
+                </ul>
+                <!-- end tab navigation -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid tab-content">
+          <!-- start tab item -->
+          <div id="headOffice" class="row tab-pane fadein active show">
             <div class="col h-600px p-0 md-h-450px xs-h-300px">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.0656374373066!2d127.20766897628297!3d37.17361674656056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b4e81b87ff7b5%3A0x5f1a7d196b6eedbe!2z6rK96riw64-EIOyaqeyduOyLnCDsspjsnbjqtawg7J2064-Z7J2NIOuNleyEseyCsOuLqDLroZw1MOuyiOq4uCAyMQ!5e1!3m2!1sko!2skr!4v1771982962624!5m2!1sko!2skr"
@@ -1261,6 +1307,20 @@
               ></iframe>
             </div>
           </div>
+          <!-- end tab item -->
+          <!-- start tab item -->
+          <div id="seoulOffice" class="row tab-pane fade">
+            <div class="col h-600px p-0 md-h-450px xs-h-300px">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1877.2195131901756!2d127.05896698800895!3d37.5054799981796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca415c04d4da7%3A0x40177042ba82909b!2z7ISc7Jq47Yq567OE7IucIOqwleuCqOq1rCDsgrzshLHroZw3Nuq4uCAyMy0yMg!5e1!3m2!1sko!2skr!4v1774848034225!5m2!1sko!2skr"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="w-100 h-100 filter-grayscale-100"
+              ></iframe>
+            </div>
+          </div>
+          <!-- end tab item -->
         </div>
       </section>
       <!-- end section -->
